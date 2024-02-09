@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(184, 176, 176);
+   
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 17px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: orange; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.hello {
+    font-size: 65px;
+
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 20px;
+    margin-top: 23px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 17px;
+    width: 7vw;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img {
+
+    height: 58vh;
+
+}
+
+/* CONTACT STYLE */
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.contactform h1 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px 0;
+
+
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactform form div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+
+
+#emailHelp {
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#phoneHelp {
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+/* BLOG styles */
+.blogitem {
+    margin: 20px;
+    font-family: 'Source Sans 3', sans-serif
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 23px;
+}
+
+.blogcontainer .btn-sm {
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Source Sans 3', sans-serif
+}
+
+/* intro Styles */
+
+.intro h2 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer {
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 12px;
+    padding: 12px;
+}
+
+.skill {
+
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.skillitem {
+    /* display: flex; */
+    align-items: center;
+}
+
+
+/* percentage skill */
+.hundred {
+    width: 265px;
+    background-color: rgb(254, 36, 36);
+}
+
+.eighty {
+    width: 219px;
+    background-color: rgb(105, 36, 254);
+
+}
+
+.twentifive {
+    width: 90px;
+    background-color: yellow;
+}
+
+.sixty {
+    width: 195px;
+    background-color: blue;
+}
+
+.sidebarGo{
+    transform: translate(-443px , 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left:110px;
+    
+}
+
+@media (max-width:1615px) {
+    * {
+        /* background-color: rgb(241, 147, 147); */
+    }
+
+    /* .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+}
